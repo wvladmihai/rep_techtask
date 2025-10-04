@@ -1,0 +1,16 @@
+{
+  "name": "rep-techtask",
+  "version": "1.0.0",
+  "type": "commonjs",
+  "scripts": {
+    "start": "ts-node src/index.ts"
+  },
+  "devDependencies": {
+    "@types/node": "^24.6.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.9.3"
+  },
+  "dependencies": {
+    "@duckdb/node-api": "^1.4.0-r.2"
+  }
+}
