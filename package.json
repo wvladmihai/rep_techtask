@@ -3,12 +3,15 @@
   "version": "1.0.0",
   "type": "commonjs",
   "scripts": {
-    "start": "ts-node src/index.ts"
+    "start": "ts-node src/index.ts",
+    "test": "vitest run"
   },
   "devDependencies": {
     "@types/node": "^24.6.2",
+    "@vitest/expect": "^3.2.4",
     "ts-node": "^10.9.2",
-    "typescript": "^5.9.3"
+    "typescript": "^5.9.3",
+    "vitest": "^3.2.4"
   },
   "dependencies": {
     "@duckdb/node-api": "^1.4.0-r.2"
